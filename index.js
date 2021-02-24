@@ -1,5 +1,5 @@
 //API Key for weather website. Needed to extracting data. 
-const apiKey ="d698d7fd05b94ae663719a80e770b066"; 
+const apiKey =""; 
 
 //variables
 const searchButton = document.querySelector('#searchButton');

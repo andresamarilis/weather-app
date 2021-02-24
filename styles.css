@@ -1,13 +1,26 @@
 
-.inputGroup {
-
-  padding-top: 100px ;
-   
-}
 
 
-.card-body {
+.card-body, .card {
 
   text-align: center;
+  background-color: rgb(231, 223, 223);
 
 }
+
+.box{
+  background-color: white;
+  opacity: 96%;
+
+
+  margin-top: 100px ;
+  margin-bottom: 100px;
+  border-radius: 80px;
+  padding: 25px 50px 75px 100px;
+}
+
+
+body {
+  background-image: url("/img/dan-freeman-7Zb7kUyQg1E-unsplash.jpg");
+  background-size: cover;
+ }

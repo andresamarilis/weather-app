@@ -13,34 +13,52 @@
 
 <body>
 
-    <div class="container-fluid">
 
-        <div class="d-flex justify-content-center inputGroup">
+    <!--Bootstrap Container-->
 
-            <div class="form-group">
-                <h1>What's the Weather?</h1>
+    <div class="container">
 
-                <!--Groups the text field and button together-->
-                <div class="input-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter City" />
-                    <button type="button" class="btn btn-primary">Search</button>
+        <!-- ROW ONE -->
+        <div class="row justify-content-center">
+            <div class="inputGroup">
+                <div class="form-group">
+                    <h1>What's the Weather?</h1>
+                    <br>
+
+                    <!--Groups the in, text field, and search button together.-->
+                    <div class="input-group">
+
+                        <span class="input-group-text">In</span>
+                        <input type="email" class="form-control" id="inputCity" placeholder="Enter City..." />
+                        <button type="button" id="searchButton" class="btn btn-primary">Search</button>
+                    </div>
+                    <small id="cityHelp" class="form-text text-muted">Type in the name of a city in the text
+                        field</small>
+
                 </div>
-                <small id="cityHelp" class="form-text text-muted">Type in the name of a city in the text field</small>
+            </div>
+        </div>
+
+        <br>
+
+         <!-- ROW TWO -->
+        <div class="row justify-content-center">
+
+            <!--MUST CHANGE THIS LATER TO MAKE IT RESPONSIVE-->
+            <div class="col-md-8 col-lg-5 cardList" id="weatherContainer">
+
+                <!-- <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Queensland</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Cloudy</h6>
+                        <p class="card-text">16 degrees</p>
+                    </div>
+                </div> -->
+
 
             </div>
         </div>
 
-
-
-        <div class="d-flex justify-content-center weatherCards">
-
-            <div class="card" style="width: 23rem;">
-                <div class="card-body">
-                    This is some text within a card body.
-                </div>
-            </div>
-
-        </div>
     </div>
 
 
